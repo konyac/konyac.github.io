@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://konyac.cc/"/>
-  <updated>2016-05-27T12:12:56.327Z</updated>
+  <updated>2016-05-28T09:49:43.476Z</updated>
   <id>http://konyac.cc/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第一篇</title>
+    <link href="http://konyac.cc/2016/05/28/%E7%AC%AC%E4%B8%80%E7%AF%87/"/>
+    <id>http://konyac.cc/2016/05/28/第一篇/</id>
+    <published>2016-05-28T09:01:00.000Z</published>
+    <updated>2016-05-28T09:49:43.476Z</updated>
+    
+    <content type="html">&lt;p&gt;尝试每天写点东西，随手搭了一个hexo的博客。感觉还不错，有待继续挖掘。基础的功能应该够用了。&lt;br&gt;先记录一些常用的命令：&lt;/p&gt;
+&lt;p&gt;hexo new “postName” #新建文章&lt;br&gt;hexo new draft “new_draft” #新建草稿&lt;br&gt;hexo publish [layout] &lt;new_draft&gt; #可以把草稿变成文章，或者页面&lt;br&gt;hexo new page “pageName” #新建页面&lt;br&gt;hexo generate #生成静态页面至public目录&lt;br&gt;hexo server #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）&lt;br&gt;hexo s -p 5000 #在本地的5000 端口预览&lt;br&gt;hexo deploy #将.deploy目录部署到GitHub&lt;br&gt;hexo help  # 查看帮助&lt;br&gt;hexo version  #查看Hexo的版本&lt;br&gt;hexo clean #清除&lt;br&gt;hexo g&amp;amp;&amp;amp;hexo d #合并发布&lt;/new_draft&gt;&lt;/p&gt;
+&lt;p&gt;`&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;尝试每天写点东西，随手搭了一个hexo的博客。感觉还不错，有待继续挖掘。基础的功能应该够用了。&lt;br&gt;先记录一些常用的命令：&lt;/p&gt;
+&lt;p&gt;hexo new “postName” #新建文章&lt;br&gt;hexo new draft “new_draft” #新建草稿&lt;br&gt;he
+    
+    </summary>
+    
+      <category term="Diary" scheme="http://konyac.cc/categories/Diary/"/>
+    
+    
+      <category term="随笔" scheme="http://konyac.cc/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
