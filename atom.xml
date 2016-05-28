@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>konya-回旋舞</title>
-  <subtitle>康雅，回旋舞的发源地，我忍不住，为那单纯，重复的舞蹈哭泣。人们，为什么总是旋转不止呢？</subtitle>
+  
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://konyac.cc/"/>
