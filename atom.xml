@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://konyac.cc/"/>
-  <updated>2016-06-07T09:23:19.742Z</updated>
+  <updated>2016-06-07T11:28:51.410Z</updated>
   <id>http://konyac.cc/</id>
   
   <author>
@@ -14,6 +14,51 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HTML5学习笔记</title>
+    <link href="http://konyac.cc/2016/06/07/HTML5%E7%AC%94%E8%AE%B0/"/>
+    <id>http://konyac.cc/2016/06/07/HTML5笔记/</id>
+    <published>2016-06-07T08:31:32.000Z</published>
+    <updated>2016-06-07T11:28:51.410Z</updated>
+    
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;标签整理&lt;/p&gt;
+&lt;p&gt; &lt;code&gt;&amp;lt;h1&amp;gt;&amp;lt;/h1&amp;gt;&lt;/code&gt;标题标签&lt;br&gt; &lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt;段落标签&lt;br&gt; &lt;code&gt;&amp;lt;img src=&amp;quot;1.jpg&amp;quot;&amp;gt;&lt;/code&gt;图片表情&lt;br&gt; 示例&lt;code&gt;&amp;lt;img　src=&amp;quot;http://img.mukewang.com/52b4113500018cf102000200.jpg&amp;quot; &amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;HTML文件结构&lt;br&gt;![此处输入图片的描述][1]&lt;br&gt;&lt;code&gt;&amp;lt;html&amp;gt;&amp;lt;/html&amp;gt;&lt;/code&gt;称为根标签，所有的网页标签都在&lt;html&gt;&lt;/html&gt;中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;认识head标签&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;下面这些标签可用在 head 部分：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;　　&amp;lt;head&amp;gt;
+    &amp;lt;title&amp;gt;...&amp;lt;/title&amp;gt;
+    &amp;lt;meta&amp;gt;
+    &amp;lt;link&amp;gt;
+    &amp;lt;style&amp;gt;...&amp;lt;/style&amp;gt;
+    &amp;lt;script&amp;gt;...&amp;lt;/script&amp;gt;
+&amp;lt;/head&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt;标签：在&lt;code&gt;&amp;lt;title&amp;gt;&lt;/code&gt;和&lt;code&gt;&amp;lt;/title&amp;gt;&lt;/code&gt;标签之间的文字内容是网页的标题信息，它会出现在浏览器的标题栏中。网页的title标签用于告诉用户和搜 索引擎这个网页的主要内容是什么，搜索引擎可以通过网页标题，迅速的判断出网页的主题。每个网页的内容都是不同的，每个网页都应该有一个独一无二的title。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;代码注释&lt;/p&gt;
+&lt;p&gt; 　&lt;code&gt;&amp;lt;!--注释文字&amp;gt;&lt;/code&gt;代码注释&lt;br&gt; 　&lt;br&gt; 　&lt;br&gt;2016-06-07 &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;标签整理&lt;/p&gt;
+&lt;p&gt; &lt;code&gt;&amp;lt;h1&amp;gt;&amp;lt;/h1&amp;gt;&lt;/code&gt;标题标签&lt;br&gt; &lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt;段落标签&lt;br&gt; &lt;code&gt;&amp;lt;img src=&amp;quot;1.jpg&amp;q
+    
+    </summary>
+    
+    
+      <category term="学习" scheme="http://konyac.cc/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>新的开始</title>
