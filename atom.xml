@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://konyac.cc/"/>
-  <updated>2016-06-07T11:37:40.708Z</updated>
+  <updated>2016-06-14T08:44:56.759Z</updated>
   <id>http://konyac.cc/</id>
   
   <author>
@@ -16,11 +16,118 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>HTML5学习笔记</title>
-    <link href="http://konyac.cc/2016/06/07/HTML5%E7%AC%94%E8%AE%B0/"/>
-    <id>http://konyac.cc/2016/06/07/HTML5笔记/</id>
+    <title>HTML5学习笔记（二）</title>
+    <link href="http://konyac.cc/2016/06/14/HTML5%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
+    <id>http://konyac.cc/2016/06/14/HTML5学习笔记（二）/</id>
+    <published>2016-06-14T08:31:32.000Z</published>
+    <updated>2016-06-14T08:44:56.759Z</updated>
+    
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;标签学习（一）&lt;br&gt;&lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;在网页上要展示出来的页面内容一定要放在body标签中&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;把文章的段落放到&lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;标签中&lt;br&gt;&lt;code&gt;&amp;lt;p&amp;gt;段落文本&amp;lt;/p&amp;gt;&lt;/code&gt; &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;标签段前段后都会有个空白用css来删除。&lt;/p&gt;
+&lt;p&gt; &lt;code&gt;&amp;lt;hx&amp;gt;&lt;/code&gt;标题标签，&lt;code&gt;h1、h2、h3、h4、h5、h6&lt;/code&gt;分别为一级标题、二级标题、三级标题、四级标题、五级标题、六级标题。并且依据重要性递减。&lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;是最高的等级.&lt;/p&gt;
+&lt;p&gt; &lt;code&gt;&amp;lt;em&amp;gt;``&amp;lt;strong&amp;gt;&lt;/code&gt;特别强调某几个文字&lt;br&gt;&lt;code&gt;&amp;lt;em&amp;gt;需要强调的文本&amp;lt;/em&amp;gt;&lt;/code&gt;&lt;em&gt;斜体字，需要强调的文本&lt;/em&gt;&lt;br&gt;&lt;code&gt;&amp;lt;strong&amp;gt;需要强调的文本&amp;lt;/strong&amp;gt;&lt;/code&gt;&lt;strong&gt;加粗字，需要强调的文本&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt;标签是没有语义的，它的作用就是为了设置单独的样式用的。&lt;/p&gt;
+&lt;p&gt; &lt;code&gt;&amp;lt;q&amp;gt;&lt;/code&gt;段文本引用&lt;br&gt;&lt;code&gt;&amp;lt;q&amp;gt;庄生晓梦迷蝴蝶。望帝春心托杜鹃。&amp;lt;/q&amp;gt;&lt;/code&gt;要引用的文本不用加双引号，浏览器会对q标签自动添加双引号。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;blockquote&amp;gt;&lt;/code&gt;长文本引用&lt;br&gt;&lt;code&gt;&amp;lt;blockquote&amp;gt;暗淡轻黄体性柔，情疏迹远只香留。何须浅碧深红色，自是花中第一流。&amp;lt;/blockquote&amp;gt;&lt;/code&gt;&lt;blockquote&gt;暗淡轻黄体性柔，情疏迹远只香留。何须浅碧深红色，自是花中第一流。&lt;/blockquote&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;br/&amp;gt;&lt;/code&gt;分行显示文本，在需要加回车换行的地方加入&lt;code&gt;&amp;lt;br/&amp;gt;&lt;/code&gt;&lt;br&gt;&lt;code&gt;&amp;lt;p&amp;gt;暗淡轻黄体性柔，&amp;lt;br/&amp;gt;情疏迹远只香留。&amp;lt;br/&amp;gt;何须浅碧深红色，&amp;lt;br/&amp;gt;自是花中第一流。&amp;lt;/p&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;暗淡轻黄体性柔，&lt;br&gt;情疏迹远只香留。&lt;br&gt;何须浅碧深红色，&lt;br&gt;自是花中第一流。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;amp;nbsp;&lt;/code&gt;&lt;br&gt;html代码中输入空格、回车都是没有作用的。要想输入空格，必须写入&lt;code&gt;&amp;amp;nbsp;&lt;/code&gt;。&lt;br&gt;&lt;code&gt;&amp;lt;hr /&amp;gt;&lt;/code&gt;加一些用于分隔的横线&lt;br&gt;&lt;code&gt;&amp;lt;hr /&amp;gt;&lt;/code&gt;标签和&lt;code&gt;&amp;lt;br /&amp;gt;&lt;/code&gt;标签一样也是一个空标签，所以只有一个开始标签，没有结束标签。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;address&amp;gt;&lt;/code&gt;标签，为网页加地址信息。&lt;br&gt;&lt;code&gt;&amp;lt;address&amp;gt;联系地址信息&amp;lt;/address&amp;gt;&lt;/code&gt;&lt;address&gt;联系地址信息&lt;/address&gt;&lt;br&gt;&lt;code&gt;&amp;lt;code&amp;gt;&lt;/code&gt;插入代码，&lt;br&gt;&lt;code&gt;&amp;lt;pre&amp;gt;&lt;/code&gt;插入多行代码,&lt;code&gt;&amp;lt;pre&amp;gt;语言代码段&amp;lt;/pre&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;学习标签（二）&lt;br&gt;&lt;code&gt;ul-li``ul-li&lt;/code&gt;是没有前后顺序的信息列表。&lt;/p&gt;
+&lt;p&gt;` &lt;ul&gt;&lt;br&gt;   &lt;li&gt;信息&lt;/li&gt;&lt;br&gt;   &lt;li&gt;信息&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;......
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt; &lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;code&gt;&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;信息&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;信息&amp;lt;/li&amp;gt;
+......
+&amp;lt;/ul&amp;gt;&lt;/code&gt;ol-li&lt;code&gt;`ol-li&lt;/code&gt;是带有前后顺序的信息列表。&lt;br&gt;` &lt;ol&gt;&lt;br&gt;   &lt;li&gt;信息&lt;/li&gt;&lt;br&gt;   &lt;li&gt;信息&lt;/li&gt;&lt;p&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;......
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt; &lt;/p&gt;&lt;/ol&gt;`&lt;p&gt;&lt;/p&gt;
+ &lt;ol&gt;&lt;br&gt;&lt;li&gt;信息&lt;/li&gt;&lt;br&gt;&lt;li&gt;信息&lt;/li&gt;&lt;br&gt;……&lt;br&gt;&lt;/ol&gt;
+
+
+
+&lt;p&gt;&lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;这个&lt;div&gt;标签的作用就相当于一个容器。&lt;br&gt;&lt;code&gt;&amp;lt;div&amp;gt;…&amp;lt;/div&amp;gt;&lt;/code&gt;确定逻辑部门。一块独立的内容。它是页面上相互关联的一组元素。如网页中的独立的栏目版块，就是一个典型的逻辑部分。&lt;br&gt;用id属性来为&lt;div&gt;提供唯一的名称，这个就像我们每个人都有一个身份证号，这个身份证号是唯一标识我们的身份的，也是必须唯一的。&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&amp;quot;Hotlist&amp;quot;&amp;gt;
+   &amp;lt;h2&amp;gt;热门课程排行榜&amp;lt;/h2&amp;gt;
+    &amp;lt;ol&amp;gt;
+       &amp;lt;li&amp;gt;前端开发面试心法 &amp;lt;/li&amp;gt;
+      &amp;lt;li&amp;gt;零基础学习html&amp;lt;/li&amp;gt;
+       &amp;lt;li&amp;gt;javascript全攻略&amp;lt;/li&amp;gt;
+    &amp;lt;/ol&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;&amp;lt;table&amp;gt;&lt;/code&gt;认识网页上的表格&lt;br&gt;创建表格的四个元素：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;table、tbody、tr、th、td&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;1、&lt;code&gt;&amp;lt;table&amp;gt;…&amp;lt;/table&amp;gt;&lt;/code&gt;：整个表格以&lt;code&gt;&amp;lt;table&amp;gt;&lt;/code&gt;标记开始、&lt;code&gt;&amp;lt;/table&amp;gt;&lt;/code&gt;标记结束。&lt;br&gt;2、&lt;code&gt;&amp;lt;tbody&amp;gt;…&amp;lt;/tbody&amp;gt;&lt;/code&gt;：当表格内容非常多时，表格会下载一点显示一点，但如果加上&lt;code&gt;&amp;lt;tbody&amp;gt;&lt;/code&gt;标签后，这个表格就要等表格内容全部下载完才会显示&lt;br&gt;3、&lt;code&gt;&amp;lt;tr&amp;gt;…&amp;lt;/tr&amp;gt;&lt;/code&gt;：表格的一行，所以有几对tr 表格就有几行。&lt;br&gt;4、&lt;code&gt;&amp;lt;td&amp;gt;…&amp;lt;/td&amp;gt;&lt;/code&gt;：表格的一个单元格，一行中包含几对&lt;code&gt;&amp;lt;td&amp;gt;...&amp;lt;/td&amp;gt;&lt;/code&gt;，说明一行中就有几列。&lt;br&gt;5、&lt;code&gt;&amp;lt;th&amp;gt;…&amp;lt;/th&amp;gt;&lt;/code&gt;：表格的头部的一个单元格，表格表头。&lt;br&gt;6、表格中列的个数，取决于一行中数据单元格的个数。&lt;br&gt;7、&lt;code&gt;&amp;lt;table summary=&amp;quot;表格简介文本&amp;quot;&amp;gt;&lt;/code&gt;&lt;br&gt;8、&lt;code&gt;&amp;lt;caption&amp;gt;表格的标题摘要&amp;lt;/caption&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;body&amp;gt;
+&amp;lt;table summary=&amp;quot;本表格记录2012年到2013年库存记录，记录包括U盘和耳机库存量&amp;quot;&amp;gt;
+  &amp;lt;caption&amp;gt;2012年到2013年库存记录&amp;lt;/caption&amp;gt;
+  &amp;lt;tr&amp;gt;
+    &amp;lt;th&amp;gt;产品名称 &amp;lt;/th&amp;gt;
+    &amp;lt;th&amp;gt;品牌 &amp;lt;/th&amp;gt;
+    &amp;lt;th&amp;gt;库存量（个） &amp;lt;/th&amp;gt;
+    &amp;lt;th&amp;gt;入库时间 &amp;lt;/th&amp;gt;
+  &amp;lt;/tr&amp;gt;
+  &amp;lt;tr&amp;gt;
+    &amp;lt;td&amp;gt;耳机 &amp;lt;/td&amp;gt;
+    &amp;lt;td&amp;gt;联想 &amp;lt;/td&amp;gt;
+    &amp;lt;td&amp;gt;500&amp;lt;/td&amp;gt;
+    &amp;lt;td&amp;gt;2013-1-2&amp;lt;/td&amp;gt;
+  &amp;lt;/tr&amp;gt;
+  &amp;lt;tr&amp;gt;
+    &amp;lt;td&amp;gt;U盘 &amp;lt;/td&amp;gt;
+    &amp;lt;td&amp;gt;金士顿 &amp;lt;/td&amp;gt;
+    &amp;lt;td&amp;gt;120&amp;lt;/td&amp;gt;
+    &amp;lt;td&amp;gt;2013-8-10&amp;lt;/td&amp;gt;
+  &amp;lt;/tr&amp;gt;
+  &amp;lt;tr&amp;gt;
+    &amp;lt;td&amp;gt;U盘 &amp;lt;/td&amp;gt;
+    &amp;lt;td&amp;gt;爱国者 &amp;lt;/td&amp;gt;
+    &amp;lt;td&amp;gt;133&amp;lt;/td&amp;gt;
+    &amp;lt;td&amp;gt;2013-3-25&amp;lt;/td&amp;gt;
+  &amp;lt;/tr&amp;gt;
+&amp;lt;/table&amp;gt;
+&amp;lt;/body&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;学习标签（三）&lt;br&gt;&lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt;使用&lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt;标签可实现超链接，它在网页制作中可以说是无处不在，只要有链接的地方，就会有这个标签。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;a  href=&amp;quot;目标网址&amp;quot;  title=&amp;quot;鼠标滑过显示的文本&amp;quot;&amp;gt;链接显示的文本&amp;lt;/a&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;ul&amp;gt;
+     &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot; title=&amp;quot;前端开发面试心法&amp;quot;&amp;gt;前端开发面试心法&amp;lt;/a&amp;gt; &amp;lt;/li&amp;gt;
+     &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot; title=&amp;quot;零基础学习html&amp;quot;&amp;gt;零基础学习html&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+     &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#&amp;quot; title=&amp;quot;JavaScript全攻略&amp;quot;&amp;gt;JavaScript全攻略&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt;标签在默认情况下，链接的网页是在当前浏览器窗口中打开，有时我们需要在新的浏览器窗口中打开。&lt;br&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;目标网址&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;click here!&amp;lt;/a&amp;gt;&lt;/code&gt;&lt;br&gt;&lt;code&gt;&amp;lt;img&amp;gt;&amp;lt;img&amp;gt;&lt;/code&gt;标签来插入图片&lt;br&gt;&lt;code&gt;&amp;lt;img src=&amp;quot;图片地址&amp;quot; alt=&amp;quot;下载失败时的替换文本&amp;quot; title = &amp;quot;提示文本&amp;quot;&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;img src=&amp;quot;http://img.mukewang.com/52da54ed0001ecfa04120172.jpg&amp;quot; title=&amp;quot;电影介绍&amp;quot;/&amp;gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&quot;http://img.mukewang.com/52da54ed0001ecfa04120172.jpg&quot; title=&quot;电影介绍&quot;&gt;&lt;br&gt;讲解：&lt;br&gt;1、src：标识图像的位置；&lt;br&gt;2、alt：指定图像的描述性文本，当图像不可见时（下载不成功时），可看到该属性指定的文本；&lt;br&gt;3、title：提供在图像可见时对图像的描述(鼠标滑过图片时显示的文本)；&lt;br&gt;4、图像可以是GIF，PNG，JPEG格式的图像文件。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;标签学习（一）&lt;br&gt;&lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt;在网页上要展示出来的页面内容一定要放在body标签中&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;把文章的段落放到&lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;标签中&lt;br
+    
+    </summary>
+    
+      <category term="HTML5" scheme="http://konyac.cc/categories/HTML5/"/>
+    
+    
+      <category term="学习" scheme="http://konyac.cc/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTML5学习笔记（一）</title>
+    <link href="http://konyac.cc/2016/06/07/HTML5%E7%AC%94%E8%AE%B0(%E4%B8%80)/"/>
+    <id>http://konyac.cc/2016/06/07/HTML5笔记(一)/</id>
     <published>2016-06-07T08:31:32.000Z</published>
-    <updated>2016-06-07T11:37:40.708Z</updated>
+    <updated>2016-06-12T09:17:04.583Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;标签整理&lt;/p&gt;
